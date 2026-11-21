@@ -1,0 +1,22 @@
+{
+  "name": "civicresolve",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CivicResolve - AI-Powered Civic Issue Reporting and Resolution Platform",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "start": "node start-dev.js",
+    "dev:backend": "npm --prefix backend start",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "civic-tech",
+    "ai",
+    "complaint-resolution",
+    "smart-city",
+    "governance"
+  ],
+  "author": "CivicResolve Team",
+  "license": "MIT"
+}
